@@ -1,0 +1,66 @@
+/** @format */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	width: 100%;
+	font-family: Gilroy;
+}
+#main {
+	height: 100%;
+	width: 100%;
+	background: radial-gradient(rgb(212, 221, 248), rgb(78, 81, 92));
+}
+#main #card {
+	height: 25vw;
+	width: 20vw;
+	background-color: rgba(255, 255, 255, 0.356);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 0.6vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	row-gap: 1vw;
+}
+#card img {
+	height: 5vw;
+	width: 5vw;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: top;
+}
+#card h1 {
+	font-size: 1.5vw;
+	font-weight: 500;
+}
+#card h5 {
+	font-size: 1.2vw;
+	font-weight: 400;
+	color: red;
+}
+#card p {
+	font-size: 1vw;
+	width: 90%;
+	text-align: center;
+}
+#card button {
+	padding: 0.8vw;
+	min-width: 6vw;
+	border-radius: 0.6vw;
+	border: none;
+	background: radial-gradient(rgb(180, 203, 208), rgb(140, 199, 199));
+}
+#card button h6 {
+	font-weight: 400;
+	font-size: 1.1vw;
+}
